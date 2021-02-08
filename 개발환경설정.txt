@@ -1,0 +1,20 @@
+※ fng_p37 가상환경
+conda create --name fng_p37 python=3.7
+conda remove --name fng_p37 --all
+
+conda activate fng_p37
+
+pip install pandas
+pip install matplotlib
+pip install cx_Oracle --upgrade
+pip install SQLAlchemy
+pip install XlsxWriter
+pip install openpyxl
+pip install xlrd
+pip install scipy
+
+
+
+pip freeze > D:/repo_gitlab/imfly_system_DEV/requirements.txt
+pip freeze > D:/repo_gitlab/fng_system/requirements.txt
+
